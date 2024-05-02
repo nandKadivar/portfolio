@@ -16,6 +16,11 @@ module.exports = {
       'terminal-red': '#E64D4D',
       'terminal-yellow': '#FBE185',
       'terminal-green': '#7AE769',
+      'fb-icon': '#008DFC',
+      'ig-icon': '#EA6C6C',
+      'ln-icon': '#008DFC',
+      'tw-icon': '#008DFC',
+      'gray-bg': '#566272'
     },
     fontFamily: {
       'type1': ['Ultra', 'sans-serif'],
