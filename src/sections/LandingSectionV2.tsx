@@ -2,22 +2,83 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-
+import JsIcon from '../icons/js-icon';
+import TsIcon from '../icons/ts-icon';
+import CypressIcon from '../icons/cypress-icon'
+import EmberIcon from '../icons/ember-icon'
+import DockerIcon from '../icons/docker-icon'
+import NodeIcon from '../icons/node-icon'
+import ReactIcon from '../icons/react-icon'
+import ReduxIcon from '../icons/redux-icon'
+import ExpressIcon from '../icons/express-icon';
+import JqueryIcon from '../icons/jquery-icon';
+import TailwindIcon from '../icons/tailwind-icon';
+import DynamoIcon from '../icons/dynamo-icon';
+import MySqlIcon from '../icons/mysql-icon';
+import MongoIcon from '../icons/mongo-icon';
+import MuiIcon from '../icons/mui-icon';
+import FigmaIcon from '../icons/figma-icon';
+import PmIcon from '../icons/postman-icon';
+import K8Icon from '../icons/k8-icon';
 import SkillBucket from '../components/SkillBucket';
+import JavaIcon from '../icons/java-icon';
+import Terminal from '../components/Terminal';
 
-const LandingSection = () => {
+interface LandingSectionProps {
+  bg: string,
+  color: string
+}
+
+const LandingSection = (props : LandingSectionProps) => {
     return (
-      <section className='flex flex-col items-start bg-dark-bg h-screen p-5'>
-        <div className="w-full flex flex-row justify-end">
-          <LinkedInIcon className='mx-1 text-ln-icon' />
-          <TwitterIcon className='mx-1 text-tw-icon' />
-          <InstagramIcon className='mx-1 text-ig-icon' />
-          <FacebookIcon className='mx-1 text-fb-icon' />
+      <section className={`shadow-xl flex flex-col items-start bg-${props.bg} h-screen p-5`}>
+        <div className="w-full flex flex-row justify-between">
+          <div>
+            Logo
+          </div>
+          <div className="flex flex-row">
+            <LinkedInIcon className='mx-1 text-ln-icon' />
+            <TwitterIcon className='mx-1 text-tw-icon' />
+            <InstagramIcon className='mx-1 text-ig-icon' />
+            <FacebookIcon className='mx-1 text-fb-icon' />
+          </div>
         </div>
-        <div className='w-full flex flex-row py-5'>
-          <div className='basis-1/2 bg-white m-2'>HI</div>
-          <div className='basis-1/2 m-2'>
-            <SkillBucket />
+        <div className='w-full h-screen grid grid-cols-2 gap-5 py-5'>
+          <div className='h-100'>
+            <Terminal />
+          </div>
+          <div className='grid grid-cols-2 gap-3'>
+            <SkillBucket color={props.color} title='Frontend'>
+                <JsIcon />
+                <TsIcon />
+                <EmberIcon />
+                <ReactIcon />
+                <ReduxIcon />
+                <JqueryIcon />
+            </SkillBucket>
+            <SkillBucket color={props.color} title='UI/UX'>
+              <FigmaIcon />
+              <MuiIcon />
+              <TailwindIcon />
+            </SkillBucket>
+            <SkillBucket color={props.color} title='DevOps'>
+              <DockerIcon />
+              <K8Icon />
+            </SkillBucket>
+            <SkillBucket color={props.color} title='Backend'>
+              <NodeIcon />
+              <ExpressIcon />
+              <JavaIcon />
+            </SkillBucket>
+            <SkillBucket color={props.color} title='Databse'>
+              <MongoIcon />
+              <MySqlIcon />
+              <DynamoIcon />
+            </SkillBucket>
+            <SkillBucket color={props.color} title='Testing'>
+              <CypressIcon />
+              <PmIcon />
+            </SkillBucket>
           </div>
         </div>
       </section>

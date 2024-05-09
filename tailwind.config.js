@@ -9,6 +9,7 @@ module.exports = {
       'dark-bg': '#f4f6f8',
       // 'dark-bg': '#171C1D',
       'light-bg': '#F5F5F5',
+      'section2-bg': '#6e07f4',
       'white': '#FFFFFF',
       'black': '#000000',
       'terminal-bg-1': '#3E3E3E',
@@ -20,7 +21,14 @@ module.exports = {
       'ig-icon': '#EA6C6C',
       'ln-icon': '#008DFC',
       'tw-icon': '#008DFC',
-      'gray-bg': '#566272'
+      'gray-bg': '#566272',
+      // Skill bucket
+      'indigo': '#45489a',
+      'bucketColor1': '#45489a',
+      'bucketColor2': '#f95c3b',
+      'bucketColor3': '#008DFC',
+      'bucketColor4': '#EA6C6C',
+      'gray': '#94aab9'
     },
     fontFamily: {
       'type1': ['Ultra', 'sans-serif'],
