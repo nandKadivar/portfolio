@@ -22,18 +22,23 @@ module.exports = {
       'ln-icon': '#008DFC',
       'tw-icon': '#008DFC',
       'gray-bg': '#566272',
+      'light-gray': '#F5F5F5',
+      'dark-gray': '#566272',
       // Skill bucket
       'indigo': '#45489a',
       'bucketColor1': '#45489a',
       'bucketColor2': '#f95c3b',
       'bucketColor3': '#008DFC',
       'bucketColor4': '#EA6C6C',
-      'gray': '#94aab9'
+      'gray': '#94aab9',
+      'card-bg': '#4f20d2',
+      'slice-bg': '#f4f6f8',
     },
     fontFamily: {
       'type1': ['Ultra', 'sans-serif'],
       'type2': ['Bungee Spice', 'sans-serif'],
-      'type3': ['Libre Barcode 39 Text', 'sans-serif']
+      'type3': ['Libre Barcode 39 Text', 'sans-serif'],
+      'project': ['Jersey 25 Charted', 'sans-serif'],
     },
     extend: {},
   },

@@ -36,3 +36,59 @@
       opacity: 1; /* Cursor visible */
     }
   }
+
+  .section-2 {
+    position: relative;
+  }
+
+  .timeline-container {
+    position: absolute;
+    bottom: -65%;
+    background-color: #fff;
+    z-index: 1;
+  }
+
+  .section-3 {
+    /* background-image: url('./backgrounds/bg-1.png'); */
+    /* background-size: cover; */
+    background-color: #f8f8f8;
+  }
+
+  .project-title {
+    margin-top: 30vh;
+  }
+
+  .mt-40 {
+    margin-top: 40vh;
+  }
+
+  .project-container {
+    background-color: #4f20d2;
+  }
+
+  .project-image {
+    background-image: url('../public/ss.png');
+    background-size: cover;
+  }
+
+.carousel-container {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s ease;
+}
+
+.carousel img:not(:first-child) {
+  transform: translateY(100%);
+}

@@ -7,8 +7,7 @@ const Terminal = () => {
     const command = 'cat ./profile.txt'
   
     useEffect(() => {
-      const intervalId = setInterval(() => {
-        console.log(text.length)    
+      const intervalId = setInterval(() => {   
         if(text.length < command.length) {
                 setText((prevText) => prevText + command.charAt(prevText.length));
             } else {
