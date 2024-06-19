@@ -11,7 +11,7 @@ const ThirdSection = () => {
       <div className='container mt-40'>
         <ProjectFrame project={{
           title: 'IELTS Organization',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis sed accusamus quaerat, dolore totam consequatur assumenda. Quae quidem doloribus et fuga distinctio odio, tempore maxime blanditiis, saepe consectetur pariatur eius!',
+          description: 'Specialized web application for IELTS teaching institutes, facilitating seamless online seminar hosting, class scheduling, and student performance management. The platform offers mock test creation and administration for IELTS modules (Listening, Reading, Writing), with students receiving valuable feedback from instructors. Detailed test scores and visualizations enhance the teaching experience, fostering continuous improvement and student success in IELTS preparation.',
           images: ieltsImages,
           github: 'https://github.com/nandKadivar/Web-Application-for-IELTS-Organization',
           youtube: '',
@@ -19,7 +19,7 @@ const ThirdSection = () => {
         }} />
         <ProjectFrame project={{
           title: 'Milkman',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis sed accusamus quaerat, dolore totam consequatur assumenda. Quae quidem doloribus et fuga distinctio odio, tempore maxime blanditiis, saepe consectetur pariatur eius!',
+          description: 'Mobile application tailored for dairy owners, facilitating streamlined management of customer subscriptions, delivery logistics, and day-to-day business operations. The app also empowers new customers to explore various milk providers, compare prices, and seamlessly subscribe, enhancing accessibility and efficiency in the dairy industry.',
           images: milkmanImages,
           github: 'https://github.com/nandKadivar/MilkmanReactNativeApp',
           youtube: 'https://www.youtube.com/watch?v=LPpvetSihp8',
@@ -27,7 +27,7 @@ const ThirdSection = () => {
         }} />
         <ProjectFrame project={{
           title: 'Mr. Manager',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis sed accusamus quaerat, dolore totam consequatur assumenda. Quae quidem doloribus et fuga distinctio odio, tempore maxime blanditiis, saepe consectetur pariatur eius!',
+          description: 'Comprehensive web application tailored for construction businesses, facilitating efficient resource management. It enables tracking of purchase orders for materials, monitoring construction site progress, managing inventory, and overseeing worker details. The platform also features an analytical dashboard for visualizing business data across multiple construction sites, empowering informed decision-making and streamlined operations.',
           images: managerImages,
           github: 'https://github.com/MrManager-GitHub',
           youtube: '',
@@ -35,7 +35,7 @@ const ThirdSection = () => {
         }} />
         <ProjectFrame project={{
           title: 'Urban Canada',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis sed accusamus quaerat, dolore totam consequatur assumenda. Quae quidem doloribus et fuga distinctio odio, tempore maxime blanditiis, saepe consectetur pariatur eius!',
+          description: 'Robust web application designed to connect users with a wide array of service providers while empowering small businesses to list and offer their services. The platform enables seamless booking and management of services for users, while providing tools for businesses to track customer interactions and service performance, fostering efficiency and growth in local economies.',
           images: urbanCanadaImages,
           github: 'https://github.com/nandKadivar/Urban-Canada',
           youtube: '',

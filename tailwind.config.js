@@ -5,9 +5,8 @@ module.exports = {
   ],
   theme: {
     colors: {
-      'color1': '#6E61E7', // Purple #ff6967
+      'color1': '#6E61E7',
       'dark-bg': '#f4f6f8',
-      // 'dark-bg': '#171C1D',
       'light-bg': '#F5F5F5',
       'section2-bg': '#6e07f4',
       'white': '#FFFFFF',

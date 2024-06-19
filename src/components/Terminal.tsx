@@ -37,7 +37,9 @@ const Terminal = () => {
                             <span>*****************</span><br />
                             <span>Web Developer</span><br />
                             <span>*****************</span><br />
-                            I am Nand Kadivar. Dynamic and resourceful software developer with over 2 years of startup experience, adept at developing highly maintainable IT solutions within time-bound deadlines. Proficient in React.js, Redux, TypeScript, Node.js and MongoDB, among other technologies.
+                            <div className="text-justify">
+                                I am Nand Kadivar. Dynamic and resourceful software developer with over 2 years of startup experience, adept at developing highly maintainable IT solutions within time-bound deadlines. Proficient in React.js, Redux, TypeScript, Node.js and MongoDB, among other technologies.
+                            </div>
                         </span>
                     </div>
                 }
