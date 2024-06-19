@@ -8,7 +8,7 @@ const ThirdSection = () => {
 
   return (
     <section className='section-3 flex flex-col items-center'>
-      <div className='container mt-40'>
+      <div className='container lg:mt-40 md:mt-40 mt-96'>
         <ProjectFrame project={{
           title: 'IELTS Organization',
           description: 'Specialized web application for IELTS teaching institutes, facilitating seamless online seminar hosting, class scheduling, and student performance management. The platform offers mock test creation and administration for IELTS modules (Listening, Reading, Writing), with students receiving valuable feedback from instructors. Detailed test scores and visualizations enhance the teaching experience, fostering continuous improvement and student success in IELTS preparation.',
