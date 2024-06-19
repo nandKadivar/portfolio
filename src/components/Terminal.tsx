@@ -32,7 +32,14 @@ const Terminal = () => {
                 <span>nandkadivar ~ <span className="command">{text}</span><span className={`blinking-cursor ${visibility}`}>|</span></span>
                 <br />
                 {profile && 
-                    <span><span>********************** Web Developer **********************</span> <br />I am Nand Kadivar. Dynamic and resourceful software developer with over 1.5 years of startup experience, adept at developing highly maintainable IT solutions within time-bound deadlines. Proficient in React.js, Redux, TypeScript, Node.js and MongoDB, among other technologies.</span>
+                    <div>
+                        <span>
+                            <span>*****************</span><br />
+                            <span>Web Developer</span><br />
+                            <span>*****************</span><br />
+                            I am Nand Kadivar. Dynamic and resourceful software developer with over 2 years of startup experience, adept at developing highly maintainable IT solutions within time-bound deadlines. Proficient in React.js, Redux, TypeScript, Node.js and MongoDB, among other technologies.
+                        </span>
+                    </div>
                 }
             </div>
         </div>

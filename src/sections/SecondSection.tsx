@@ -1,24 +1,23 @@
-import { title } from "process";
 import TimelineBar from "../components/TimelineBar";
 
 const SecondSection = () => {
   return (
     <section className='section-2 bg-section2-bg flex flex-col justify-center items-center p-5'>
-        <div className="grid md:grid-cols-3 sm:grid-cols-1 grid-cols-1 gap-6 my-10 p-4">
+        <div className="md:h-40 sm:h-80 grid md:grid-cols-3 sm:grid-cols-1 grid-cols-1 gap-6 my-10 p-4">
           <div className="flex flex-col items-center">
             <span className="text-xl text-white font-bold">
               Development
             </span>
-            <span className="mt-2 text-sm text-white font-semi">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. At facilis deserunt ea illo mollitia ducimus alias aliquam saepe consectetur. Deserunt amet dicta ullam eos quae dolor tenetur rerum ab ipsam.
+            <span className="mt-2 text-sm text-white font-semi text-justify">
+              I specialize in turning ideas into reality through code. From websites to apps, I craft solutions that stand out.
             </span>
           </div>
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center text-justify">
             <span className="text-xl text-white font-bold">
               Cloud
             </span>
-            <span className="mt-2 text-sm text-white font-semi">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. At facilis deserunt ea illo mollitia ducimus alias aliquam saepe consectetur. Deserunt amet dicta ullam eos quae dolor tenetur rerum ab ipsam.
+            <span className="mt-2 text-sm text-white font-semi text-justify">
+              Harnessing the power of the cloud, I optimize infrastructure for performance and security, streamlining operations.
             </span>
           </div>
           <div className="flex flex-col items-center">
@@ -26,7 +25,7 @@ const SecondSection = () => {
               DevOps
             </span>
             <span className="mt-2 text-sm text-white font-semi">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. At facilis deserunt ea illo mollitia ducimus alias aliquam saepe consectetur. Deserunt amet dicta ullam eos quae dolor tenetur rerum ab ipsam.
+              Embracing automation and collaboration, I accelerate delivery pipelines and enhance productivity.
             </span>
           </div>
         </div>

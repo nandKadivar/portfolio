@@ -43,9 +43,51 @@
 
   .timeline-container {
     position: absolute;
-    bottom: -65%;
+    bottom: -50%;
     background-color: #fff;
     z-index: 1;
+  }
+
+  @media screen and (max-width: 1065px){
+    .timeline-container {
+      bottom: -55%;
+      max-width: 90%;
+    }
+  }
+
+  @media screen and (max-width: 1030px){
+    .timeline-container {
+      bottom: -60%;
+      max-width: 90%;
+    }
+  }
+
+  @media screen and (max-width: 900px){
+    .timeline-container {
+      bottom: -68%;
+      max-width: 90%;
+    }
+  }
+
+  @media screen and (max-width: 768px){
+    .timeline-container {
+      bottom: -55%;
+      max-width: 90%;
+    }
+  }
+
+  @media screen and (max-width: 695px){
+    .timeline-container {
+      bottom: -60%;
+      max-width: 90%;
+    }
+  }
+
+  @media screen and (max-width: 575px){
+    .timeline-container {
+      bottom: -70%;
+      max-width: 90%;
+    }
   }
 
   .section-3 {
@@ -64,11 +106,6 @@
 
   .project-container {
     background-color: #4f20d2;
-  }
-
-  .project-image {
-    background-image: url('../public/ss.png');
-    background-size: cover;
   }
 
 .carousel-container {

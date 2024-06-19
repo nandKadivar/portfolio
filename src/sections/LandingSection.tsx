@@ -1,7 +1,3 @@
-import FacebookIcon from '@mui/icons-material/Facebook';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import JsIcon from '../icons/js-icon';
 import TsIcon from '../icons/ts-icon';
 import CypressIcon from '../icons/cypress-icon'
@@ -23,7 +19,6 @@ import K8Icon from '../icons/k8-icon';
 import SkillBucket from '../components/SkillBucket';
 import JavaIcon from '../icons/java-icon';
 import Terminal from '../components/Terminal';
-import Logo from '../icons/logo';
 import Navbar from '../components/Navbar';
 
 interface LandingSectionProps {
@@ -35,9 +30,8 @@ const LandingSection = (props : LandingSectionProps) => {
     return (
       <section className={`shadow-xl min-h-screen flex flex-col items-start bg-${props.bg} p-5`}>
         <Navbar />
-        
         <div className='w-full h-full grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-5 py-5'>
-          <div className='min-h-100'>
+          <div className='h-100'>
             <Terminal />
           </div>
           <div className='p-3 grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-3'>
