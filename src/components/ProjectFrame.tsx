@@ -6,7 +6,7 @@ interface Project {
     title: string,
     description: string,
     images: string[],
-    github: string,
+    github?: string,
     youtube?: string,
     display?: 'type1' | 'type2'
 }
@@ -17,7 +17,9 @@ const ProjectFrame = ({ project }: { project: Project }) => {
             <span className='text-xl text-gray-bg font-semi font-type1'>{project.title}</span>
             <span className='text-sm text-gray-bg mt-1 text-justify'>{project.description}</span>
             <div className='mt-3'>
-              <a href={project.github} className='p-2' target="_blank"><GitHubIcon className='text-gray-bg cursor-pointer' /></a>
+              {project.github !== '' && 
+                <a href={project.github} className='p-2' target="_blank"><GitHubIcon className='text-gray-bg cursor-pointer' /></a>
+              }
               {project.youtube !== '' && 
                 <a href={project.youtube} className='p-2' target="_blank"><YouTubeIcon className='text-gray-bg cursor-pointer'  style={{ fontSize: '28px' }}/></a>
               }
